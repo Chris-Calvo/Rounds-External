@@ -34,4 +34,6 @@ This was my first ever go at something like this, so the logic is by no means pe
 - Declare the offsets for the gun object and the player object, then declare offsets relative to those objects.
 - Be able to handle the game not being open, or match not started. (Don't check every frame, or if you do, handle the game not being open).
 
-Apart from those two items, the next step would be to implement something more advanced, such as thread hijacking.
+## **What To Do Next**
+- Implement an advanced technique such as thread hijacking
+- Implement some sort of ESP (probably will be a different game)
