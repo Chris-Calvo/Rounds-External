@@ -11,22 +11,22 @@ The GUI was creating using the ImGui API, and game attributes were found using a
 
 |  Object  |  Offset  |
 |-----------------|----------|
-| Player Entity | 0x1CB3A80->0x8->0x50->0x48->0x40->0xF8->0xA0 |
-| Health | Player Entity->0x108 |
-| Move Speed | Player Entity->0x80->0x88 |
-| Respawn Count | Player Entity->0x80->0xB8 |
-| Infinite Block | Player Entity->0x78->0xB4 |
+| Player Entity | 0x1CB3A80+0x8+0x50+0x48+0x40+0xF8+0xA0 |
+| Health | Player Entity+0x108 |
+| Move Speed | Player Entity+0x80+0x88 |
+| Respawn Count | Player Entity+0x80+0xB8 |
+| Infinite Block | Player Entity+0x78+0xB4 |
 ||
-| Gun Entity | Player Entity->0x88->0x28 |
-| Reload Speed | Gun Entity->0x78, 0x74 |
-| Damage | Gun Entity-> ?? |
-| Knockback | Gun Entity-> ?? |
-| Fire Rate | Gun Entity->0xC0 |
-| Bullet Speed | Gun Entity->0xC4 |
-| Bullet Bounce | Gun Entity->0xFC |
-| Bullet Size | Gun Entity->0xE8 |
-| Wallbang | Gun Entity->0x15A |
-| Ammo Count | Gun Entity->0x78->0x68 |
+| Gun Entity | Player Entity+0x88+0x28 |
+| Reload Speed | Gun Entity+0x78, 0x74 |
+| Damage | Gun Entity+ ?? |
+| Knockback | Gun Entity+ ?? |
+| Fire Rate | Gun Entity+0xC0 |
+| Bullet Speed | Gun Entity+0xC4 |
+| Bullet Bounce | Gun Entity+0xFC |
+| Bullet Size | Gun Entity+0xE8 |
+| Wallbang | Gun Entity+0x15A |
+| Ammo Count | Gun Entity+0x78+0x68 |
 
 ## **What To Do Better**
 
